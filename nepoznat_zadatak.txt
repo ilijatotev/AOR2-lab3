@@ -1,3 +1,6 @@
+--ocigledno da je zadatak radjen kao i kao bihejvioralni opis, gde je
+--komponenta radjena kao bihejvioralni opis
+
 Library ieee;
 use ieee.std_logic_1164.all;
 
@@ -53,11 +56,6 @@ STIMULUS:Process
             x_tb<="0000","1000" after 10ps,"1100" after 20ns;
             end process;
 end architecture;
-    
-
-    
-
-
 
 
 
